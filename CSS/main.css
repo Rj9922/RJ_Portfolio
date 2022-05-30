@@ -56,6 +56,12 @@ header ul a {
   display: block;
   padding: 0 1em;
   font-size: 15px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+header ul a:hover {
+  color: #FF64CB;
 }
 
 .social-header, .hero-design {
